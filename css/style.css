@@ -1,0 +1,42 @@
+body {
+    background-color: #e99308;
+    font-family: Roboto;
+    color: #e9fafa;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 65px;
+    font-weight: 400;
+}
+
+section {
+    width: 50%;
+    padding-left: 25%;
+    padding-top: 10%;
+}
+
+.btn {
+    background-color: #e99308;
+    border-color: #e9fafa;
+    border-style: solid;
+    color: #e9fafa;
+    font-size: 120%;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 150px;
+    height: 60px;
+    margin-left: 1%;
+}
+
+.btn:hover {
+    background-color: #e9fafa;
+    border-color: #e99308;
+    color: #e99308;
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
+}
